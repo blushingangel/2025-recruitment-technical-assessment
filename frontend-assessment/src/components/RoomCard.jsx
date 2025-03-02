@@ -7,7 +7,8 @@ const RoomCard = ({ name, image, available }) => {
       <div className="absolute top-4 right-4 flex">
         <div className="flex w-[154px] h-[38px] px-4 rounded bg-white text-black text-xs flex items-center">
           <div className="w-[10px] h-[10px] rounded-full mr-[10px]" style={{ backgroundColor: "rgb(76, 175, 80)" }}></div>
-          <p>{available} rooms available</p>
+          <p className="block sm:hidden">{available}/{available}</p>
+          <p className="hidden sm:block">{available} rooms available</p>
         </div>
       </div>
       <div className="absolute bottom-4 left-0 right-0 flex justify-center">

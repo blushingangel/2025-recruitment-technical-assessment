@@ -3,7 +3,7 @@ import logo from '../../../frontend/assets/freeRoomslogo.png';
 import closedLogo from '../../../frontend/assets/freeRoomsDoorClosed.png';
 
 const DoorLogo = () => {
-  const [ isOpen, setIsOpen ] = useState(false);
+  const [ isOpen, setIsOpen ] = useState(true);
 
   const toggle = () => {
     setIsOpen(!isOpen);

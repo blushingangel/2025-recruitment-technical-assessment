@@ -1,0 +1,29 @@
+Project Instructions
+===================
+
+1. Prerequisites
+----------------
+Before you begin, ensure that you have the following installed:
+- Node.js (version 14 or higher)
+- npm (Node Package Manager)
+- Vite (if you don't have it globally installed, run `npm install vite`)
+
+2. Setting Up the Project
+-------------------------
+- Clone the repository to your local machine:
+  git clone https://github.com/blushingangel/2025-recruitment-technical-assessment.git
+  
+- Navigate into the project directory:
+  cd frontend-assessment
+  
+- Install the project dependencies:
+  npm install
+
+3. Running the Vite Development Server
+--------------------------------------
+  
+- Start the development server:
+  npm run dev
+  
+- Open your browser and visit the specified port to view the website.
+
